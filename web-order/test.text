@@ -1,0 +1,10 @@
+docker run -d \
+    --name my-mongodb \
+    -p 27017:27017 \
+    -e MONGO_INITDB_ROOT_USERNAME=citiizix \
+    -e MONGO_INITDB_ROOT_PASSWORD=S3cret \
+    mongo:5.0
+
+
+ cach 2 : cd foder docker
+ run  docker-compose up -d
